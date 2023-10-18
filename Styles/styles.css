@@ -1,0 +1,77 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    background-color: #FFF;
+    padding: 10px;
+    box-shadow: 2px 1px 2px 2px rgb( 216, 210, 210);
+
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.logo{
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.logo-text{
+    color:#545BE8 ;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+}
+.nav-links{
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #101928;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.home-text{
+    font-family: "Poppins";
+    font-weight: 700;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.login{
+    border-radius: 10px;
+    border:1px solid #545BE8;
+    color: #545BE8;
+    font-family: "Inter";
+    font-weight: 700;
+    padding: 10px 40px;
+    background-color: #FFF;
+}
+.register{
+    border-radius: 10px;
+    color: #FFF;
+    font-family: "Inter";
+    font-weight: 700;
+    padding: 10px 40px;
+    background-color: #545BE8;
+}
+.link-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
