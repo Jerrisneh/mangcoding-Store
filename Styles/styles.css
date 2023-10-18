@@ -11,7 +11,8 @@
     background-color: #FFF;
     padding: 10px;
     box-shadow: 2px 1px 2px 2px rgb( 216, 210, 210);
-
+    position: fixed;
+    width: 100%;
 }
 .nav-logo{
     display: flex;
@@ -46,13 +47,13 @@
     font-family: "Poppins";
     font-weight: 700;
 }
-.form{
+.buttons{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
-.login{
+.login-btn{
     border-radius: 10px;
     border:1px solid #545BE8;
     color: #545BE8;
@@ -61,7 +62,7 @@
     padding: 10px 40px;
     background-color: #FFF;
 }
-.register{
+.register-btn{
     border-radius: 10px;
     color: #FFF;
     font-family: "Inter";
@@ -75,3 +76,64 @@
     justify-content: center;
     gap: 30px;
 }
+.hero{
+    height: 100vh;
+    display: flex;
+    padding-top:150px ;
+    justify-content: center;
+}
+.article-left{
+    padding:0px 50px 50px;
+    margin:0px 2px 0px 85px;
+}
+.first-p{
+    color: #545BE8;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.begin{
+    color: #545BE8;
+    font-family: "Inter";
+    font-weight: 700;
+}
+.article-left h1{
+    color: #141E32;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 60px;
+}
+.course{
+    color: #545BE8;
+}
+.second-p{
+    font-family: "Poppins";
+    font-weight: 400;
+    color: #969696;
+    margin: 20px 0px;
+
+}
+.article-right{
+    height: 500px;
+    width: 500px;
+    margin:0px 100px 10px 20px;
+}
+.buttons-2{
+    display: flex;
+    gap: 10px;
+}
+.play{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+.play-img{
+    height: 30px;
+}
+.play-text{
+    padding: 10px;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
