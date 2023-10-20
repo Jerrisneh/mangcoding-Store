@@ -117,7 +117,7 @@
     margin: 20px 0px;
 
 }
-.article-right{
+.article-right img{
     height: 500px;
     width: 500px;
     margin:0px 100px 10px 20px;
@@ -147,7 +147,7 @@ margin:0 0 50px;
 .article-top h2{
     align-items: center;
     text-align: center; 
-    font-size: 40px;
+    font-size: 35px;
     font-family: "Poppins";
     font-weight: 700;
     padding: 30px;
@@ -198,4 +198,116 @@ margin:0 0 50px;
     color:#DDDDDD;
     padding: 10px 20px 20px;
     padding-right: 40px;
+}
+/* stats section styled */
+.statis{
+    display: flex;
+    gap: 10px;
+    background-color: #545BE8;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.stats-article-left{
+    height: 500px;
+    padding: 20px 40px;
+}
+.stats-article-right{
+    padding: 120px 60px 80px 40px;
+    margin-top:0px;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+.p{
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 12px;
+    color: #F0C932;
+}
+.stats-article-right h2{
+    color: #FFFFFF;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 30px;
+    margin: 20px 0px 20px 0px;
+    padding-right: 2px;
+    width: 250px;
+}
+.stats-article-right p{
+    color: #DDDDDD;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    padding: 20px 0px;
+}
+.stats{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+.stats span{
+    display: block;
+}
+.stats-num{
+    color: #F0C932;
+    font-family: "Inter";
+    font-weight: 700;
+}
+.stats-name{
+    justify-content: center;
+    align-items: center;
+    color: #DDDDDD;
+    font-family: "Inter";
+    font-weight: 400;
+}
+.courses{
+padding: 40px;
+margin: 40px;
+}
+
+.course-image1 img{
+    width: 250px;
+}
+.courses-article{
+    display: flex;
+    gap: 40px;
+    margin-left: 100px;
+}
+.p1{
+    color:#545BE8;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 12px;
+    padding: 10px 0px;
+
+}
+.comments h2{
+    color:#141E32;
+    font-family: "Poppins";
+    font-weight: 700;
+    width: 100px;
+    padding: 0px 0px 10px;
+}
+.p2{
+    color: #969696;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 12px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+/*  tesimonial styles*/
+.test h2{
+    color: #0D1222;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    margin-bottom: 20px;
+}
+.test-cards{
+    display: flex;
+    justify-content: center
+}
+.test-card1 img{
+    width: 550px;
 }

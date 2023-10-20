@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="./Styles/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700;800&family=Kumbh+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <!-- nav section -->
-    <div class="navbar">
+    <nav class="navbar">
       <div class="nav-logo">
         <div>
           <img src="./Assets/logo.svg" alt="nav-logo-icon" class="logo" />
@@ -38,10 +40,10 @@
           <button class="register-btn">Register</button>
         </div>
       </div>
-    </div>
+    </nav>
     <!-- hero section -->
     <section class="hero">
-      <div class="article-left">
+      <article class="article-left">
         <div class="first-p">
           <p>Let's <span class="begin">Begin</span></p>
         </div>
@@ -65,14 +67,10 @@
             <div class="play-text">Play Video</div>
           </button>
         </div>
-      </div>
-      <div>
-        <img
-          src="./Assets/hero-image.png"
-          alt="hero-image"
-          class="article-right"
-        />
-      </div>
+      </article>
+      <article class="article-right">
+        <img src="./Assets/hero-image.svg" alt="hero-image" />
+      </article>
     </section>
     <!-- offers section -->
     <section class="offers">
@@ -80,8 +78,8 @@
         <h2>What do You Get From Us</h2>
       </div>
 
-      <div class="article-bottom">
-        <div class="offer-card-1">
+      <article class="article-bottom">
+        <article class="offer-card-1">
           <div class="offer-icon-bg">
             <img
               src="./Assets/teacher-icon.svg"
@@ -94,9 +92,9 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             dignissim, sem non convallis molestie.
           </p>
-        </div>
+        </article>
 
-        <div class="offer-card-2">
+        <article class="offer-card-2">
           <div class="offer-icon-bg">
             <img
               src="./Assets/certificate-icon.svg"
@@ -109,8 +107,8 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             dignissim, sem non convallis molestie.
           </p>
-        </div>
-        <div class="offer-card-3">
+        </article>
+        <article class="offer-card-3">
           <div class="offer-icon-bg">
             <img
               src="./Assets/learning-icon.svg"
@@ -124,9 +122,92 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
             dignissim, sem non convallis molestie.
           </p>
+        </article>
+      </article>
+    </section>
+
+    <!-- stats section -->
+    <section class="statis">
+      <div class="stats-article-left">
+        <img
+          src="./Assets/stats-image.svg"
+          alt="stats-image"
+          class="stats-article-left"
+        />
+      </div>
+      <div class="stats-article-right">
+        <span class="p">SELECTED COURSE</span>
+        <h2>People Taking Courses</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+          dignissim, sem non convallis molestie.
+        </p>
+        <div class="stats">
+          <div>
+            <span class="stats-num">6,000</span>
+            <span class="stats-name">People Views</span>
+          </div>
+
+          <div>
+            <span class="stats-num">4,000</span>
+            <span class="stats-name">User</span>
+          </div>
+
+          <div>
+            <span class="stats-num">100</span>
+            <span class="stats-name">Course</span>
+          </div>
         </div>
       </div>
     </section>
-    <!-- stats section -->
+
+    <!-- courses section -->
+    <section class="courses">
+      <article class="courses-article">
+        <div class="course-image1">
+          <img src="./Assets/html-css.svg" alt="html-css-image" />
+        </div>
+        <div class="course-image1">
+          <img src="./Assets/photograph.svg" alt="photographer-image" />
+        </div>
+        <div class="comments">
+          <div class="p1">
+            <p>AVAILABLE FOR YOU</p>
+          </div>
+          <div class="comment-header">
+            <h2>Available Courses</h2>
+          </div>
+          <div class="p2">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              dignissim, sem non convallis molestie.
+            </p>
+          </div>
+          <button class="register-btn">See all</button>
+        </div>
+      </article>
+      <article class="courses-article">
+        <div class="course-image1">
+          <img src="./Assets/javascript.svg" alt="javascript-image" />
+        </div>
+        <div class="course-image1">
+          <img src="./Assets/Desain-Grafis.svg" alt="Desain-Grafis-image" />
+        </div>
+      </article>
+    </section>
+    <!-- testimonial section -->
+    <section class="testimonial">
+      <div class="test">
+        <h2>Testimonials</h2>
+      </div>
+      <div class="test-cards">
+        <div class="test-card1">
+          <img src="./Assets/friskidia.svg" alt="friskidia-image" />
+        </div>
+        <div class="test-card1">
+          <img src="./Assets/finkidia.svg" alt="finkidia-image" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
