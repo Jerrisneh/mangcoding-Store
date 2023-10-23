@@ -338,6 +338,8 @@ footer ul{
 .links{
     display: flex;
     gap: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
 }
 .footer2{
     display: flex;
